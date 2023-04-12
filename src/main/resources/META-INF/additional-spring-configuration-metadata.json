@@ -1,0 +1,47 @@
+{"properties": [
+  {
+    "name": "twitter.consumerKey",
+    "type": "java.lang.String",
+    "description": "A description for 'twitter.consumerKey'"
+  },
+  {
+    "name": "twitter.consumerSecret",
+    "type": "java.lang.String",
+    "description": "A description for 'twitter.consumerSecret'"
+  },
+  {
+    "name": "twitter.token",
+    "type": "java.lang.String",
+    "description": "A description for 'twitter.token'"
+  },
+  {
+    "name": "twitter.secret",
+    "type": "java.lang.String",
+    "description": "A description for 'twitter.secret'"
+  },
+  {
+    "name": "twitter.consumerKey",
+    "type": "java.lang.String",
+    "description": "A description for 'twitter.consumerKey'"
+  },
+  {
+    "name": "twitter.consumerKey",
+    "type": "java.lang.String",
+    "description": "A description for 'twitter.consumerKey'"
+  },
+  {
+    "name": "twitter.consumerKey",
+    "type": "java.lang.String",
+    "description": "A description for 'twitter.consumerKey'"
+  },
+  {
+    "name": "twitter.consumer-key",
+    "type": "java.lang.String",
+    "description": "A description for 'twitter.consumer-key'"
+  },
+  {
+    "name": "twitter.consumer-secret",
+    "type": "java.lang.String",
+    "description": "A description for 'twitter.consumer-secret'"
+  }
+]}

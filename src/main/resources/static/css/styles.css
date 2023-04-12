@@ -1,0 +1,28 @@
+.table th, .table td, .table {
+  
+}
+.fixed-table-container {
+    border:0px;
+    border-bottom: none !important;
+    border-top: none !important;
+}
+
+.fixed-height {
+    border:0px;
+    border-bottom: none !important;
+    border-top: none !important;
+}
+
+.fixed-table-border {
+    border: none !important
+}
+
+.fixed-table-container .fixed-table-header .bootstrap-table {
+	border:none !important;
+	overflow: inherit;
+	
+}
+
+.fixed-table-header {
+	margin-right: 0px !important
+}

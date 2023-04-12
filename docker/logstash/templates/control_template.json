@@ -1,0 +1,63 @@
+{
+    "order": 1,
+    "index_patterns": [
+        "control_entrada-*"
+    ],
+    "settings": {
+        "index": {
+            "number_of_shards": "3"
+        }
+    },
+    "mappings": {
+        "doc": {
+            "_meta": {
+                "version": "6.4.0"
+            },
+            "dynamic_templates": [
+                {
+                    "fields": {
+                        "mapping": {
+                            "type": "keyword"
+                        },
+                        "match_mapping_type": "string",
+                        "path_match": "fields.*"
+                    }
+                },
+                {
+                    "strings_as_keyword": {
+                        "mapping": {
+                            "type": "keyword",
+                            "ignore_above": 1024
+                        },
+                        "match_mapping_type": "string"
+                    }
+                }
+            ],
+            "properties": {
+                "@timestamp": {
+                    "type": "date"
+                },
+                "bytes": {
+                    "type": "integer"
+                },
+                "geoip": {
+                    "properties": {
+                        "ip": {
+                            "type": "ip"
+                        },
+                        "location": {
+                            "type": "geo_point"
+                        },
+                        "latitude": {
+                            "type": "half_float"
+                        },
+                        "longitude": {
+                            "type": "half_float"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "aliases": {}
+}
